@@ -1,15 +1,19 @@
 import React from 'react';
-import { View, Text, Button } from 'react-native';
+import { View, Text } from 'react-native';
+import { Button, Container, Content } from 'native-base';
 
 const HomeScreen = props => {
   return (
-    <View>
-      <Text>Home</Text>
-      <Button
-        title="Go to settings"
-        onPress={() => props.navigation.navigate('Settings')}
-      />
-    </View>
+    <Container>
+      <Content>
+        <View>
+          <Text>Home</Text>
+          <Button primary onPress={() => props.navigation.navigate('Settings')}>
+            <Text style={{ color: '#fff' }}>Go to settings</Text>
+          </Button>
+        </View>
+      </Content>
+    </Container>
   );
 };
 
