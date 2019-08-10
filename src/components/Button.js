@@ -10,14 +10,14 @@ import {
   borderRadius,
   margin,
   padding,
-  defaultColor
+  primaryColor
 } from '../constants/config';
 
 const styles = StyleSheet.create({
   touchableOpacity: {
     margin,
     padding,
-    backgroundColor: defaultColor,
+    backgroundColor: primaryColor,
     borderRadius: borderRadius.button,
     flexDirection: 'row',
     justifyContent: 'center'

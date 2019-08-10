@@ -40,7 +40,7 @@ const LoginScreen = props => {
         secureTextEntry={true}
       />
       <Button
-        title="Login"
+        title="Login Test"
         onPress={() => authenticate()}
         isLoading={isLoading}
       />

@@ -4,14 +4,14 @@ import {
   borderRadius,
   margin,
   padding,
-  defaultColor,
+  primaryColor,
   fontSize
 } from '../constants/config';
 
 const styles = StyleSheet.create({
   textInput: {
     height: 40,
-    borderColor: defaultColor,
+    borderColor: primaryColor,
     borderWidth: 1,
     borderRadius: borderRadius.input,
     margin,
